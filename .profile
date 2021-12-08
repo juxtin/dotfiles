@@ -1,6 +1,4 @@
 #! env bash
-set -euo pipefail
-
 # Aliases
 
 function gh-clone () {
