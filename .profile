@@ -6,5 +6,5 @@ set -euo pipefail
 function gh-clone () {
   NWO=$1
   shift 1
-  git clone https://$(whoami):${GH_GH_PAT}@github.com/$NWO $*
+  git clone https://${GITHUB_USER}:${GH_GH_PAT}@github.com/$NWO $*
 }
