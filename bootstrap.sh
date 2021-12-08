@@ -1,3 +1,3 @@
-#! env bash
+#!/bin/bash
 
 cat .profile >> ~/.profile
