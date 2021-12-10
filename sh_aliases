@@ -1,4 +1,7 @@
-## Shell aliases from dotfiles
+### Begin 'sh_aliases'
+#### Contents inserted from juxtin/dotfiles/sh_aliases -> ~/.profile
 
 alias grhh="git reset --hard HEAD"
 alias be="bundle exec"
+
+### End 'sh_aliases'
