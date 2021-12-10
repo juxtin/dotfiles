@@ -1,0 +1,4 @@
+## Shell aliases from dotfiles
+
+alias grhh="git reset --hard HEAD"
+alias be="bundle exec"
