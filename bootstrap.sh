@@ -13,7 +13,7 @@ git config --global alias.ls 'log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset
 git config --global alias.ll 'log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat'
 git config --global alias.up '!git remote update -p; git merge --ff-only @{u}'
 git config --global alias.pushup 'push -u origin HEAD'
-git conifg --global alias.fuckthis '!git reset --hard && git clean -fd && git checkout .'
+git config --global alias.fuckthis '!git reset --hard && git clean -fd && git checkout .'
 
 # Git config
 git config --global core.editor "vim"
