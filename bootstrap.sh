@@ -18,4 +18,5 @@ git config --global alias.fuckthis '!git reset --hard && git clean -fd && git ch
 # Git config
 git config --global core.editor "vim"
 
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 gh repo clone juxtin/dotspacemacs  ~/.spacemacs.d -- --recursive
