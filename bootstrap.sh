@@ -16,4 +16,4 @@ git config --global alias.pushup 'push -u origin HEAD'
 git config --global alias.fuckthis '!git reset --hard && git clean -fd && git checkout .'
 
 # Git config
-git config --global core.editor "vim"
+git config --global core.editor "vi"
