@@ -17,3 +17,7 @@ git config --global alias.fuckthis '!git reset --hard && git clean -fd && git ch
 
 # Git config
 git config --global core.editor "vi"
+
+# Ripgrep config
+mkdir -p ~/.ripgrep
+cp ripgrep.rc ~/.ripgrep/rc

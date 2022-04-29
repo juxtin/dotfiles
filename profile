@@ -13,4 +13,6 @@ function gh-clone () {
   git clone https://${GITHUB_USER}:${GH_GH_PAT}@github.com/$NWO $*
 }
 
+export RIPGREP_CONFIG_PATH=~/.ripgrep/rc
+
 ### End 'profile'
