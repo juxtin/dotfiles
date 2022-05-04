@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cat profile >> ~/.profile
-cat sh_aliases >> ~/.profile
+cat profile | sudo tee -a ~/.profile
+cat sh_aliases | sudo tee -a ~/.profile
 
 # Git aliases
 git config --global alias.co checkout
